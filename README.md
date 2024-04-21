@@ -20,12 +20,14 @@
 
 `paramspider` allows you to fetch URLs related to any domain or a list of domains from Wayback achives. It filters out "boring" URLs, allowing you to focus on the ones that matter the most.
 
+`WARNING:` this is a modification of the real paramspider provided by devanshbatham. This modification makes the output longer, without squeez and with no header. Simple for use the CLI output into other scripts.
+
 ## Installation
 
 To install `paramspider`, follow these steps:
 
 ```sh
-git clone https://github.com/devanshbatham/paramspider
+git clone https://github.com/ivansmc00/ParamSpider
 cd paramspider
 pip install .
 ```
